@@ -10,3 +10,11 @@
 .cds--header__global .cds--popover-caret {
   background-color: colors.$gray-20;
 }
+.overlay-for-close {
+  width: calc(100vw - 256px);
+  height: 100vh;
+  background: transparent;
+  position: fixed;
+  left: auto;
+  right: 0;
+}
